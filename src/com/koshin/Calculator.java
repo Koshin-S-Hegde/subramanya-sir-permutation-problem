@@ -18,6 +18,10 @@ public class Calculator {
     }
 
     private Calculator() {
+        int answer = 0;
+        for (int i = 111111; i < 666666; i++)
+            answer += isConditionMet(i) ? 1 : 0;
+        System.out.println(answer);
     }
 
     public static void main(String[] args) {
